@@ -10,4 +10,5 @@ make file executable
 edit /etc/rc.local file to run script on boot
 > sudo nano /etc/rc.local
 
+add line before exit 0
 > /usr/bin/zram.sh &
