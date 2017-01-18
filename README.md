@@ -25,10 +25,6 @@ sudo /usr/local/bin/zram.sh
 ## See it in action
 Use top, htop or atop. Which ever you prefer to view the swap memory in action or a simple free -m will do the trick
 >free -m
+
 That command should output something like:
-...
-             total       used       free     shared    buffers     cached
-Mem:           925        900         24         11         17        810
--/+ buffers/cache:         72        853
-Swap:         1025          0       1025
-...
+![](http://imgur.com/eAGIFXo)
