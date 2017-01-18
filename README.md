@@ -27,4 +27,4 @@ Use top, htop or atop. Which ever you prefer to view the swap memory in action o
 >free -m
 
 That command should output something like:
-![](http://imgur.com/eAGIFXo)
+![](http://i.imgur.com/eAGIFXo.png)
