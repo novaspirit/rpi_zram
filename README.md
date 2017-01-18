@@ -9,7 +9,7 @@ The installer will complete the steps in the manual installation (below) for you
 
 ## Manual Installation
 Download the script and copy to /usr/local/bin/ folder
-> sudo wget -O /usr/local/bin/zram.sh https://raw.githubusercontent.com/puregrain/rpi_zram/master/zram.sh
+> sudo wget -O /usr/local/bin/zram.sh https://raw.githubusercontent.com/novascript/rpi_zram/master/zram.sh
 
 make file executable
 > sudo chmod +x /usr/local/bin/zram.sh
