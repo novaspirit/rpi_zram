@@ -4,6 +4,7 @@ This script will enable ZRAM on a Raspberry Pi
 ## Quick Installer
 Install RPI_ZRAM from your Raspberry Pi's shell promt:
 > sudo wget -q https://git.io/vM1kx -O /tmp/rpizram && bash /tmp/rpizram
+
 The installer will complete the steps in the manual installation (below) for you.
 
 ## Manual Installation
