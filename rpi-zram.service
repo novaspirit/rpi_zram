@@ -3,7 +3,9 @@ Description=Script to dynamically enable ZRAM on a Raspberry Pi or other Linux s
 After=local-fs.target
 
 [Service]
+RemainAfterExit=yes
 ExecStart=/usr/bin/rpi-zram
+ExecStop=/usr/bin/rpi-zram stop
 TimeoutStopSec=600
 Nice=-19
 OOMScoreAdjust=-1000

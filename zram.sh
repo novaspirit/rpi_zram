@@ -15,6 +15,9 @@ done
 if [[ -n $(lsmod | grep zram) ]]; then
     rmmod zram
 fi
+if [[ $1 == stop ]]; then
+    exit 0
+fi
 
 # disable all
 swapoff -a

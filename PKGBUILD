@@ -11,7 +11,7 @@ makedepends=("git")
 source=("git+$url.git"
         "$pkgname.service")
 sha512sums=("SKIP"
-            "c1ddb7031b33d0d732f401ba854591256fb2b3d483380522c39524fbdbb71e7387fa53b85b189268b54a6b7276298225af4112cf84b087293234157c484e3125")
+            "b22695fc187af2efb00db6f61ec6a1ab66564838f942c2fe8d055a1722a096c53a67b18ee5a7fe49600ce028f9d6080b8b5b860a8c8f86657ec87317915b198b")
 
 package() {
     install -Dm755 $_pkgname/zram.sh $pkgdir/usr/bin/$pkgname
