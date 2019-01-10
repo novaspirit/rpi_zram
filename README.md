@@ -1,16 +1,10 @@
-# rpi_zram
-Script to dynamically enable ZRAM on a Raspberry Pi or other Linux system.
 
-Automatically detects the number of CPU cores to allocate to ZRAM computation, disables existing swap and enables ZRAM swap.
+Ok all you need to do is copy and paste these commands in terminal just minus the #
 
-Download the script and copy to /usr/bin/ folder
-> sudo wget -O /usr/bin/zram.sh https://raw.githubusercontent.com/novaspirit/rpi_zram/master/zram.sh
+#sudo wget -O //home/pi/zram_auto https://raw.githubusercontent.com/dcpender/rpi_zram/master/zram_auto
 
-make file executable
-> sudo chmod +x /usr/bin/zram.sh
+#chmod u+x zram_auto
 
-edit /etc/rc.local file to run script on boot
-> sudo nano /etc/rc.local
+#./zram_auto
 
-add line before exit 0
-> /usr/bin/zram.sh &
+This is just My automated Version of @Novaspirit zram
