@@ -1,16 +1,10 @@
-# auto install zram
 
-All you need to do is download zram_auto
+Ok all you need to do is copy and paste these commands in terminal just minus the #
 
-unzip it from your explorer
+#sudo wget -O //home/pi/zram_auto https://raw.githubusercontent.com/dcpender/zram_auto/master/zram.sh
 
-then from terminal copy and paste these following commands without the #
-
-#cd /home/pi/Downloads/rpi_zram-master
-
-#chmod u+x ./zram_auto
+#chmod u+x zram_auto
 
 #./zram_auto
 
-
-i will try to make it more automatic
+This is just My automated Version of @Novaspirit zram
