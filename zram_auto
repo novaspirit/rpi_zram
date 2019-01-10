@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#ZRAM Config
+sudo wget -O /usr/bin/zram.sh https://raw.githubusercontent.com/novaspirit/rpi_zram/master/zram.sh
+
+#Make ZRAM Executable
+sudo chmod +x /usr/bin/zram.sh
+
+#edit /etc/rc.local file to run script on boot
+sudo sed -i '/exit 0/c\/usr/bin/zram.sh &\nexit 0' /etc/rc.local
+
+#Reboot
+reboot
