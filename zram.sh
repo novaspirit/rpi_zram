@@ -1,9 +1,11 @@
 #!/bin/bash
-cores=$(nproc --all)
+cores=1
+rmmod zram
 modprobe zram num_devices=$cores
 
 swapoff -a
 
+echo 'lz4' > /sys/block/zram0/comp_algorithm
 totalmem=`free | grep -e "^Mem:" | awk '{print $2}'`
 mem=$(( ($totalmem / $cores)* 1024 ))
 
