@@ -1,5 +1,12 @@
+PureGrain-patch-readme
 # RPI_ZRAM by Don ([**@novaspirit**](https://github.com/novaspirit/rpi_zram))
 This script will enable ZRAM on a Raspberry Pi
+
+# rpi_zram
+Script to dynamically enable ZRAM on a Raspberry Pi or other Linux system.
+
+Automatically detects the number of CPU cores to allocate to ZRAM computation, disables existing swap and enables ZRAM swap.
+
 
 ## Quick Installer
 Install RPI_ZRAM from your Raspberry Pi's shell promt:
